@@ -1,4 +1,5 @@
 // script.js
-function learnMore() {
-  alert("Grade Tracker helps you manage grades with ease!");
-}
+
+document.getElementById("explore").addEventListener("click", function () {
+  alert("Explore our features and see how GradeWay can help you!");
+});
